@@ -30,21 +30,21 @@ main {
 
 .main-image {
   width: 100%;
-  border-radius: 15px;
-  margin-bottom: 25px;
+  border-radius: 0.938rem;
+  margin-bottom: 1.563rem;
 }
 
 .title {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 1.375rem;
+  margin-bottom: 0.938rem;
 }
 
 .description {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.7em;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
   font-weight: 300;
 }
 
@@ -52,7 +52,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .price {
@@ -71,7 +71,7 @@ main {
 
 .days-desc,
 .eth {
-  margin-left: 5px;
+  margin-left: 0.313rem;
 }
 
 .eth {
@@ -84,7 +84,7 @@ hr {
   height: 1px;
   color: hsl(215, 32%, 27%);
   background-color: hsl(215, 32%, 27%);
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 
 .avatar-section {
@@ -99,7 +99,7 @@ hr {
 }
 
 .created-by {
-  margin-left: 15px;
+  margin-left: 0.938rem;
   font-weight: 300;
 }
 
@@ -108,10 +108,14 @@ hr {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.688rem;
   text-align: center;
   color: hsl(215, 51%, 70%);
 }
 .attribution a {
   color: hsl(0, 0%, 100%);
+}
+
+a {
+  display: inline;
 }
